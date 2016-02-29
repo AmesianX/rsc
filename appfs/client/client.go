@@ -15,7 +15,7 @@ import (
 	"strings"
 	"time"
 
-	"code.google.com/p/rsc/appfs/proto"
+	"github.com/jwilander/rsc/appfs/proto"
 )
 
 type Client struct {

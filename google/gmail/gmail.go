@@ -15,8 +15,8 @@ import (
 	"strings"
 	"time"
 
-	"code.google.com/p/rsc/google"
-	"code.google.com/p/rsc/imap"
+	"github.com/jwilander/rsc/google"
+	"github.com/jwilander/rsc/imap"
 )
 
 var cmdtab = []struct {

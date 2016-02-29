@@ -20,10 +20,10 @@ import (
 	"sync"
 	"runtime"
 
-	"code.google.com/p/rsc/appfs/client"
-	"code.google.com/p/rsc/appfs/proto"
-	"code.google.com/p/rsc/fuse"
-	"code.google.com/p/rsc/keychain"
+	"github.com/jwilander/rsc/appfs/client"
+	"github.com/jwilander/rsc/appfs/proto"
+	"github.com/jwilander/rsc/fuse"
+	"github.com/jwilander/rsc/keychain"
 )
 
 var usageMessage = `usage: appmount [-h host] [-u user] [-p password] /mnt
