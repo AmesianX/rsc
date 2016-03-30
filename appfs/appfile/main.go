@@ -12,8 +12,8 @@ import (
 	"log"
 	"os"
 
-	"github.com/jwilander/rsc/appfs/client"
-	"github.com/jwilander/rsc/keychain"
+	"github.com/mattermost/rsc/appfs/client"
+	"github.com/mattermost/rsc/keychain"
 )
 
 var c client.Client

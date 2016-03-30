@@ -7,8 +7,8 @@ import (
 	"appengine"
 	"appengine/memcache"
 
-	_ "github.com/jwilander/rsc/appfs/server"
-	_ "github.com/jwilander/rsc/blog/post"
+	_ "github.com/mattermost/rsc/appfs/server"
+	_ "github.com/mattermost/rsc/blog/post"
 )
 
 func init() {

@@ -12,7 +12,7 @@
 //	package main
 //	
 //	import (
-//		"github.com/jwilander/rsc/devweb/slave"
+//		"github.com/mattermost/rsc/devweb/slave"
 //	
 //		_ "this/package"
 //		_ "that/package"

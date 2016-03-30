@@ -12,9 +12,9 @@ import (
 	"strings"
 
 	"code.google.com/p/freetype-go/freetype"
-	"github.com/jwilander/rsc/appfs/fs"
-	"github.com/jwilander/rsc/qr"
-	"github.com/jwilander/rsc/qr/coding"
+	"github.com/mattermost/rsc/appfs/fs"
+	"github.com/mattermost/rsc/qr"
+	"github.com/mattermost/rsc/qr/coding"
 )
 
 func makeImage(req *http.Request, caption, font string, pt, size, border, scale int, f func(x, y int) uint32) *image.RGBA {

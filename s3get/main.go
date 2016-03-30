@@ -11,7 +11,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/jwilander/rsc/keychain"
+	"github.com/mattermost/rsc/keychain"
 	"launchpad.net/goamz/aws"
 	"launchpad.net/goamz/s3"
 )

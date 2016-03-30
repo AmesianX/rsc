@@ -5,9 +5,9 @@
 package main
 
 import (
-	"github.com/jwilander/rsc/devweb/slave"
+	"github.com/mattermost/rsc/devweb/slave"
 
-	_ "github.com/jwilander/rsc/blog/post"
+	_ "github.com/mattermost/rsc/blog/post"
 )
 
 func main() {

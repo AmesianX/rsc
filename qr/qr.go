@@ -12,7 +12,7 @@ import (
 	"image"
 	"image/color"
 
-	"github.com/jwilander/rsc/qr/coding"
+	"github.com/mattermost/rsc/qr/coding"
 )
 
 // A Level denotes a QR error correction level.

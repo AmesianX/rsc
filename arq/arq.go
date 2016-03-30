@@ -21,7 +21,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/jwilander/rsc/plist"
+	"github.com/mattermost/rsc/plist"
 	"launchpad.net/goamz/aws"
 	"launchpad.net/goamz/s3"
 )

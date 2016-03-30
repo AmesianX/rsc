@@ -23,8 +23,8 @@ import (
 	"time"
 
 	"code.google.com/p/goplan9/plan9/acme"
-	"github.com/jwilander/rsc/google"
-	"github.com/jwilander/rsc/xmpp"
+	"github.com/mattermost/rsc/google"
+	"github.com/mattermost/rsc/xmpp"
 )
 
 var acmeDebug = flag.Bool("acmedebug", false, "print acme debugging")

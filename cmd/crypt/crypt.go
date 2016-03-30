@@ -3,7 +3,7 @@
 // license that can be found in the LICENSE file.
 
 // Crypt is a simple password-based encryption program,
-// demonstrating how to use github.com/jwilander/rsc/crypt.
+// demonstrating how to use github.com/mattermost/rsc/crypt.
 //
 // Encrypt input to output using password:
 //	crypt password <input >output
@@ -12,7 +12,7 @@
 //	crypt -d password <input >output
 //
 // Yes, the password is a command-line argument. This is a demo of the
-// github.com/jwilander/rsc/crypt package. It's not intended for real use.
+// github.com/mattermost/rsc/crypt package. It's not intended for real use.
 //
 package main
 
@@ -23,7 +23,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/jwilander/rsc/crypt"
+	"github.com/mattermost/rsc/crypt"
 )
 
 func main() {

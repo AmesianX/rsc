@@ -24,7 +24,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/jwilander/rsc/appfs/proto"
+	"github.com/mattermost/rsc/appfs/proto"
 )
 
 type AppEngine interface {

@@ -20,10 +20,10 @@ import (
 	"sync"
 	"runtime"
 
-	"github.com/jwilander/rsc/appfs/client"
-	"github.com/jwilander/rsc/appfs/proto"
-	"github.com/jwilander/rsc/fuse"
-	"github.com/jwilander/rsc/keychain"
+	"github.com/mattermost/rsc/appfs/client"
+	"github.com/mattermost/rsc/appfs/proto"
+	"github.com/mattermost/rsc/fuse"
+	"github.com/mattermost/rsc/keychain"
 )
 
 var usageMessage = `usage: appmount [-h host] [-u user] [-p password] /mnt

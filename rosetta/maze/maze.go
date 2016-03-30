@@ -17,7 +17,7 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/jwilander/rsc/rosetta/graph"
+	"github.com/mattermost/rsc/rosetta/graph"
 )
 
 type Maze struct {

@@ -9,7 +9,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/jwilander/rsc/fuse"
+	"github.com/mattermost/rsc/fuse"
 )
 
 func main() {

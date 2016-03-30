@@ -10,7 +10,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/jwilander/rsc/appfs/proto"
+	"github.com/mattermost/rsc/appfs/proto"
 )
 
 type context struct{}

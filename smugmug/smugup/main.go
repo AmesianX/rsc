@@ -16,8 +16,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/jwilander/rsc/keychain"
-	"github.com/jwilander/rsc/smugmug"
+	"github.com/mattermost/rsc/keychain"
+	"github.com/mattermost/rsc/smugmug"
 )
 
 const apiKey = "8qH4UgiunBKpsYpvcBXftbCYNEreAZ0m"
